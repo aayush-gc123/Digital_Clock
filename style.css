@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.main_Container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 200px;
+    width: 500px;
+    border:10px solid white;
+    /* background: linear-gradient(red,blue,gold,crimson,aqua,white); */
+
+    border-radius: 3rem;
+  
+}
+.all{
+    display: flex;
+    align-items: center;
+}
+#hour{
+    font-size: 7rem;
+    padding: 0 1rem;
+    color: crimson
+    
+}
+#dot{
+    font-size: 6rem;
+    color: white;
+    
+}
+#minute{
+    color: gold;
+    font-size: 7rem;
+
+}
+#second{
+    color: blue;
+    font-size: 5rem;
+    padding: 3rem 3rem;
+}
+#period{
+    color: white;
+    padding-right: 2rem;
+    position: relative;
+    right: 20px;
+}
